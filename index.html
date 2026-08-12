@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simon Game</h1>
+
+<h2>Press START to begin</h2>
+
+<!-- ADDED: Start button -->
+<button id="start-btn">START GAME</button>
+
+<p id="high-score">High Score: 0</p>    <div class="btn-container">
+        <div class="line-one">
+            <div id="red" class="btn red" type="button">1</div>
+            <div id="green" class="btn green" type="button">2</div>
+        </div>
+        <div class="line-two">
+            <div id="yellow" class="btn yellow" type="button">3</div>
+            <div id="purple" class="btn purple" type="button">4</div>
+        </div>
+    </div>
+     <!-- ADDED: Small instruction -->
+    <p class="instruction">Watch the sequence and repeat it!</p>
+    <script src="script.js"></script>
+</body>
+</html>
